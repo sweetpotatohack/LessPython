@@ -8,7 +8,9 @@ a = float(input("Введите результаты пробежки перво
 b = float(input("Введите общий желаемый результат в км "))
 c = 1
 d = a
-while a < b:
+
+while d <= b:
+    print(d)
     a = a + 0.1 * a
     c += 1
     d = d + a
